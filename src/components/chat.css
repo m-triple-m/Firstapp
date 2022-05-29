@@ -1,0 +1,30 @@
+.chat-area{
+    height: 70vh;
+}
+
+.message{
+    /* border: 1px solid red; */
+    max-width: 80%;
+    width: fit-content;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.309);
+}
+
+.msg-text{
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.msg-rec{
+    background: rgb(0, 105, 209);
+    border-radius: 3px 15px 15px 15px;
+
+}
+
+.msg-sent{
+    margin-left: auto;
+    background: rgb(107, 178, 0);
+    border-radius: 15px 3px 15px 15px;
+}
